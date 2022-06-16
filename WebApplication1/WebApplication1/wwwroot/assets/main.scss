@@ -3,6 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// .navigationbar {
+//     display: flex;
+//     align-content: stretch;
+//     justify-content: space-around;
+//     padding: 20px 0;
+//     .nav {
+//         display: flex;
+//         a {
+//             height: 34px;
+//             text-decoration: none;
+//             color: #000;
+//             font-size: 25px;
+//             font-weight: 500;
+//         }
+//     }
+//     .bar{
+//       ul{
+//         a{
+//             #home{
+//                 color: black;
+//             }
+//             height: 34px;
+//             list-style-type: none;
+//             text-decoration: none;
+//             display: flex;
+//             color: #777;
+//            li{
+//             padding-left: 25px;
+//             font-size: 15px;
+//             i{
+//                 margin-left: 4px;
+//             }
+//            }
+//         }
+//       }
+//     }
+// }
+// .sub-services{
+//      li{
+//     display: none;
+//      &:hover{
+//         display: block;
+//         position: absolute;
+//         background-color: white;
+
+//     }
+//     }   
+// }
 .navbar-brand {
     display: flex;
     color: black;
