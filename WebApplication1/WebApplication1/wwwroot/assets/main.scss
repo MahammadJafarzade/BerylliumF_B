@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    display: flex;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#home {
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+    color: #898989;
+    font-size: 18px;
+    margin-left: 30px;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.dropdown-menu {
+    display: none;
+
+    &:hover {
+        display: block;
+    }
+}
+
+#text {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+.work {
+    text-align: center;
+    width: 80%;
+}
+
+#title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+#desc {
+    font-size: 18px;
+    color: #898989;
+    margin-bottom: 18px;
+    padding-left: 150px;
+}
+
+.news-testimonials {
+    margin-top: 20px;
+    display: flex;
+}
+
+.news {
+    a {
+        text-decoration: none;
+
+    }
+
+    h2 {
+        padding-left: 30px;
+        font-weight: 400;
+        color: black;
+    }
+
+    li {
+        list-style-type: none;
+
+        span {
+            color: #898989;
+        }
+
+        h3 {
+            font-weight: 400;
+            color: green;
+
+            &:hover {
+                color: black;
+                transition: 0.5s;
+            }
+        }
+
+        p {
+            color: #4d4d4d;
+        }
+    }
+}
+
+.btn {
+    background-color: green;
+    text-transform: uppercase;
+    color: #175d2f;
+    letter-spacing: 2px;
+    margin-left: 30px;
+
+    &:hover {
+        color: white;
+    }
+
+}
+
+.testimonials {
+    padding-left: 20px;
+    width: 40%;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    p {
+        font-style: italic;
+        font-size: 21px;
+    }
+}
+
+.author {
+    margin-top: 10px;
+}
+
+.architectevents {
+    margin-top: 35px;
+    display: flex;
+}
+
+.footer {
+    background-color: #777;
+    padding: 40px 15px;
+    display: flex;
+    width: 100%;
+}
+
+.berry {
+    h3 {
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: white;
+    }
+}
+.links{
+    text-transform: uppercase;
+    li{
+        cursor: pointer;
+        list-style-type: none;
+        &:hover{
+            color: white;
+            transition: 1s;
+        }
+
+    }
+}
+.work{
+    text-transform: uppercase;
+    li{
+        cursor: pointer;
+        list-style-type: none;
+        
+        
+        &:hover{
+            color: white;
+            transition: 1s;
+        }
+    }
+}
+label{
+    padding-right:40px;
+    padding-top: 20px;
+}
+input{
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+.forum{
+    display: block;
+}
+#btn{
+    background-color: #52D681;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #52D681;
+    width: 25%;
+    height: 40%;
+    font-size: 19px;
+    margin: 4px 4px 4px 0;
+}
+.iconstitle{
+    display: flex;
+    h3{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
